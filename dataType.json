@@ -1,0 +1,27 @@
+{
+  "Sakib": 75,
+  "Liton Dash": 85,
+  "Sarker": 100,
+  "Frontend": "JavaScript",
+  "Backend": "PHP",
+  "Framework": "Laravel",
+  "comment": "He asked me \"what is your name ?\" ",
+  "isMarried": false,
+  "isPassed": true,
+  "bliend": false,
+  "hobies": null,
+  "language": null,
+  "holiday": ["Fiday", "Sunday"],
+  "multiple": [1, 2, 3, 5, 4, 6],
+  "multipleArray": [
+    [1, 2, 3, 4],
+    [5, 6, 7],
+    [8, 9, 10, 11]
+  ],
+  "employee": [
+    { "name": "shaharira alaom", "roll": 15, "isStudent": true },
+    { "name": "shaharira alaom", "roll": 15, "isStudent": true },
+    { "name": "shaharira alaom", "roll": 15, "isStudent": true }
+  ]
+
+}
