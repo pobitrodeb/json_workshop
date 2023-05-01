@@ -11,6 +11,15 @@
    
    $phpData = json_decode($data, true);
 
+   // Create JSON Data  
+   $newData = array(
+      "id" => 17,
+      "title" => "Power of postive thiniking", 
+      "author" => "Jone Doe"
+   );
+
+   array_push($phpData, $newData);
+   file_put_contents("books.json", json_encode($phpData));
    foreach($phpData as $objects){
      
       foreach($objects as $key => $value ){
@@ -18,5 +27,4 @@
       }
 
    }
-
 ?>
