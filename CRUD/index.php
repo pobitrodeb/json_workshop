@@ -27,4 +27,14 @@
       }
 
    }
+
+        // Update JSON Data  
+        foreach($phpData as $key => $value){
+         if($value ["id"] === 17 ){
+            $phpData [$key]["author"] = ["Pobitro Deb"];
+         }
+      }
+      file_put_contents("books.json", json_encode($phpData));
+
+      
 ?>
